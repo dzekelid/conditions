@@ -1,10 +1,13 @@
 ---
 swagger: "2.0"
 x-collection-name: New Relic
-x-complete: 1
+x-complete: 0
 info:
-  title: New Relic
+  title: New Relic Delete Alerts External Service Conditions Condition  . Format
   version: 1.0.0
+  description: "This API endpoint allows you to delete external service conditions
+    associated with your alert policy.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
+    our documentation for a discussion on deleting External services conditions."
 basePath: v2/
 schemes:
 - http
@@ -458,146 +461,17 @@ paths:
       - ""
       - .
       - Format
-  /alerts_external_service_conditions.{format}:
-    get:
-      summary: Get Alerts External Service Conditions. Format
-      description: "This API endpoint allows you to list the external service conditions
-        for your alert policy.\n\nSee our documentation for a discussion on \n output
-        pagination."
-      operationId: getAlertsExternalServiceConditions.Format
-      x-api-path-slug: alerts-external-service-conditions-format-get
-      parameters:
-      - in: query
-        name: page
-        description: Pagination index
-        type: integer
-      - in: query
-        name: policy_id
-        description: Alerts policy ID
-        type: integer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Alerts
-      - External
-      - Service
-      - Conditions.
-      - Format
-  /alerts_synthetics_conditions/policies/{policy_id}.{format}:
-    post:
-      summary: Add Alerts Synthetics Conditions Policies Policy  . Format
-      description: "This API endpoint allows you to create Synthetics conditions for
-        your alert policies.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
-        our documentation for a discussion on creating Synthetic conditions.\n\nAll
-        fields are required except for \u201Crunbook_url\u201D, \u201Cenabled\u201D
-        (defaults to false).\n\nname: A title for your condition.\n\nmonitor_id: The
-        GUID of the Synthetics monitor to alert on.\n\nrunbook_url: Runbook URL to
-        display in notifications (optional).\n\nenabled: The status of your condition
-        (optional)."
-      operationId: postAlertsSyntheticsConditionsPoliciesPolicy.Format
-      x-api-path-slug: alerts-synthetics-conditionspoliciespolicy-id-format-post
-      parameters:
-      - in: path
-        name: policy_id
-        description: Alerts policy ID
-        type: integer
-      - in: body
-        name: synthetics_condition
-        description: Condition schema
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Alerts
-      - Synthetics
-      - Conditions
-      - Policies
-      - Policy
-      - ""
-      - .
-      - Format
-  /alerts_synthetics_conditions/{id}.{format}:
-    put:
-      summary: Put Alerts Synthetics Conditions  . Format
-      description: "This API endpoint allows you to update Synthetics conditions for
-        your alert policies.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
-        our documentation for a discussion on updating Synthetic conditions.\n\nSee
-        Alerts Synthetics Conditions &gt; Create for an explanation of the field values
-        used in this command."
-      operationId: putAlertsSyntheticsConditions.Format
-      x-api-path-slug: alerts-synthetics-conditionsid-format-put
-      parameters:
-      - in: path
-        name: id
-        description: Alerts condition ID to update
-        type: integer
-      - in: body
-        name: synthetics_condition
-        description: Condition schema
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Alerts
-      - Synthetics
-      - Conditions
-      - ""
-      - .
-      - Format
-  /alerts_synthetics_conditions/{condition_id}.{format}:
-    delete:
-      summary: Delete Alerts Synthetics Conditions Condition  . Format
-      description: "This API endpoint allows you to delete Synthetics conditions associated
-        with your alert policy.\n\nNote: Admin User\u2019s API Key is required.\n\nSee
-        our documentation for a discussion on deleting Synthetic conditions."
-      operationId: deleteAlertsSyntheticsConditionsCondition.Format
-      x-api-path-slug: alerts-synthetics-conditionscondition-id-format-delete
-      parameters:
-      - in: path
-        name: condition_id
-        description: Alerts condition ID
-        type: integer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Alerts
-      - Synthetics
-      - Conditions
-      - Condition
-      - ""
-      - .
-      - Format
-  /alerts_synthetics_conditions.{format}:
-    get:
-      summary: Get Alerts Synthetics Conditions. Format
-      description: |-
-        This API endpoint allows you to list the Synthetics conditions for your alert policy.
-
-        See our documentation for a discussion on listing Synthetic conditions
-        and  output pagination.
-      operationId: getAlertsSyntheticsConditions.Format
-      x-api-path-slug: alerts-synthetics-conditions-format-get
-      parameters:
-      - in: query
-        name: page
-        description: Pagination index
-        type: integer
-      - in: query
-        name: policy_id
-        description: Alerts policy ID
-        type: integer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Alerts
-      - Synthetics
-      - Conditions.
-      - Format
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

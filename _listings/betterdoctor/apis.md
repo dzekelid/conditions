@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-bett
 x-kinRank: "8"
 x-alexaRank: "625342"
 tags: Conditions
-created: "2018-06-18"
-modified: "2018-06-18"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/betterdoctor/apis.md
 specificationVersion: "0.14"
 apis:

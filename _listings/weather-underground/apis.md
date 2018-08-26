@@ -7,102 +7,101 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weathe
 x-kinRank: "10"
 x-alexaRank: "619"
 tags: Conditions
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Weather Underground Get Key Conditions Q Pws Kcatahoe2
-  x-api-slug: weather-underground
+- name: Weather Underground - Get Key Conditions Q Pws Kcatahoe2
+  x-api-slug: keyconditionsqpwskcatahoe2-json-get
   description: This example will return the the current weather conditions at the
     Personal Weather Station (pws) KCATAHOE2
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/conditions/q/pws:KCATAHOE2.json
-  tags: Weather,Key,Conditions,Q,Pws:KCATAHOE2,Json
+  baseURL: https://api.wunderground.com//api/
+  tags: Weather, Weather, Stack Network, Mobile, internet, Broadcasts, Publish, General
+    Data, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keyconditionsqpwskcatahoe2-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keyconditionsqpwskcatahoe2-json-get-openapi.md
-- name: Weather Underground Get Key Conditions Q Ca San Francisco
-  x-api-slug: weather-underground
+- name: Weather Underground - Get Key Conditions Q Ca San Francisco
+  x-api-slug: keyconditionsqcasan-francisco-json-get
   description: This example will return the current conditions in San Francisco, California
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/conditions/q/CA/San_Francisco.json
-  tags: Weather,Key,Conditions,Q,CA,San,Francisco,Json
+  baseURL: https://api.wunderground.com//api/
+  tags: Weather, Weather, Stack Network, Mobile, internet, Broadcasts, Publish, General
+    Data, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keyconditionsqcasan-francisco-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keyconditionsqcasan-francisco-json-get-openapi.md
-- name: Weather Underground Get Key Conditions Forecast Lang Fr Q France Paris
-  x-api-slug: weather-underground
+- name: Weather Underground - Get Key Conditions Forecast Lang Fr Q France Paris
+  x-api-slug: keyconditionsforecastlangfrqfranceparis-json-get
   description: This example will return Current Conditions and a 3 day simple Forecast
     for Paris France in French. See documentation page for full list of language code
     options.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/conditions/forecast/lang:FR/q/France/Paris.json
-  tags: Weather,Key,Conditions,Forecast,Lang:FR,Q,France,Paris,Json
+  baseURL: https://api.wunderground.com//api/
+  tags: Weather, Weather, Stack Network, Mobile, internet, Broadcasts, Publish, General
+    Data, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keyconditionsforecastlangfrqfranceparis-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keyconditionsforecastlangfrqfranceparis-json-get-openapi.md
-- name: Weather Underground Get Key Conditions Forecast Lang Sp Q Spain Alicante
-  x-api-slug: weather-underground
+- name: Weather Underground - Get Key Conditions Forecast Lang Sp Q Spain Alicante
+  x-api-slug: keyconditionsforecastlangspqspainalicante-json-get
   description: This example will return Current Conditions and a 3 day simple Forecast
     for Alicante, Spain in Spanish. See documentation page for full list of language
     code options.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/conditions/forecast/lang:SP/q/Spain/Alicante.json
-  tags: Weather,Key,Conditions,Forecast,Lang:SP,Q,Spain,Alicante,Json
+  baseURL: https://api.wunderground.com//api/
+  tags: Weather, Weather, Stack Network, Mobile, internet, Broadcasts, Publish, General
+    Data, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keyconditionsforecastlangspqspainalicante-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keyconditionsforecastlangspqspainalicante-json-get-openapi.md
-- name: Weather Underground Get Key Geolookup Conditions Q Ca San Francisco
-  x-api-slug: weather-underground
+- name: Weather Underground - Get Key Geolookup Conditions Q Ca San Francisco
+  x-api-slug: keygeolookupconditionsqcasan-francisco-json-get
   description: This example will return the geographical and current conditions for
     San Francisco, California
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/geolookup/conditions/q/CA/San_Francisco.json
-  tags: Weather,Key,Geolookup,Conditions,Q,CA,San,Francisco,Json
+  baseURL: https://api.wunderground.com//api/
+  tags: Weather, Weather, Stack Network, Mobile, internet, Broadcasts, Publish, General
+    Data, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keygeolookupconditionsqcasan-francisco-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keygeolookupconditionsqcasan-francisco-json-get-openapi.md
-- name: Weather Underground Get Key Geolookup Conditions Forecast Q Ca San Francisco
-  x-api-slug: weather-underground
+- name: Weather Underground - Get Key Geolookup Conditions Forecast Q Ca San Francisco
+  x-api-slug: keygeolookupconditionsforecastqcasan-francisco-json-get
   description: This example will return the geographical, current conditions and 3
     day forecast summary for San Francisco, California
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
   humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api///{key}/geolookup/conditions/forecast/q/CA/San_Francisco.json
-  tags: Weather,Key,Geolookup,Conditions,Forecast,Q,CA,San,Francisco,Json
+  baseURL: https://api.wunderground.com//api/
+  tags: Weather, Weather, Stack Network, Mobile, internet, Broadcasts, Publish, General
+    Data, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keygeolookupconditionsforecastqcasan-francisco-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/keygeolookupconditionsforecastqcasan-francisco-json-get-openapi.md
-- name: Weather Underground
-  x-api-slug: weather-underground
-  description: Weather Underground provides local & long range weather forecasts,
-    weather reports, maps & tropical weather conditions for locations worldwide.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/966-weather-underground.jpg
-  humanURL: http://www.wunderground.com
-  baseURL: https://api.wunderground.com//api/
-  tags: Conditions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/conditions/master/_listings/weather-underground/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://watchful.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://weather.underground.stack.network
 - type: x-application-gallery
   url: http://www.wunderground.com/weather/api/d/featured_applications.html
 - type: x-crunchbase

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Infermedica
 x-complete: 1
@@ -44,4 +43,3 @@ paths:
       - Healthcare
       - Conditions
       - Id
----
